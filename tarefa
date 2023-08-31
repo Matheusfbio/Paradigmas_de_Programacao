@@ -1,0 +1,12 @@
+/* Logico_1: */
+
+CREATE TABLE Tarefa (
+    nm_tarefa VARCHAR,
+    observacao Text,
+    perc_tarefa float
+);
+
+CREATE TABLE Item_tarefa (
+    nm_itemTarefa VARCHAR,
+    idItemTarefa INTEGER PRIMARY KEY
+);
